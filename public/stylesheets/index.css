@@ -13,14 +13,14 @@ html, body {
 }
 
 /* Link defaults */
-a:link, a:visited{
+/* a:link, a:visited{
   text-decoration: none;
   color: inherit;
 }
 
 a:hover, a:active {
   text-decoration: underline;
-}
+} */
 
 /* Size and positioning */
 

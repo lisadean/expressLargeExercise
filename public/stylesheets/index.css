@@ -1,0 +1,34 @@
+/* Box sizing defaults */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+/* Link defaults */
+a:link, a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+/* Size and positioning */
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.image {
+  padding: 5px;
+}
